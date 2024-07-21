@@ -1,5 +1,5 @@
 /* global */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 .grid-2{
     display: grid;
@@ -16,7 +16,7 @@ body{
 }
 
 h2,.white{
-    color: #fff;
+    color: #ffffffa0;
 }
 
 .location{
@@ -34,7 +34,7 @@ a{
 }
 
 .section-1 p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-bottom: 10px;
     margin:0;
 }
@@ -60,7 +60,7 @@ a{
 }
 
 .section-2 p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-bottom: 10px;
     margin:0;
 }
@@ -72,23 +72,79 @@ a{
     padding-left: 0;
     width: 100px;
 }
+
+/* Experience section */
+.section-2-a h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+/* Experience dates */
+.section-2-a p{
+    font-size: 1.1rem;
+    margin-bottom: -5px;
+}
+
+/* Programming Skills section*/
+.skills{
+    font-size: 1.2rem;
+}
+
+.skills ul {
+    list-style: square;
+}
+
+.skills li {
+    margin: 7px 0;
+}
+
+.skill-header {
+    font-weight: 600;
+}
+
+/* Project list styles */
+.projects a{
+    display: inline;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.projects p{
+    font-size: 1.1rem;
+    padding-top: 5px;
+}
+
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.3rem;
-    color: #fff;
+    color: #ffffffa0;
     cursor: pointer;
     transition: 0.2s;
 }
 
+/* Links below name */
+.section-1 a {
+    transition: all 0.7s ease-out;
+}
+
 .section-1 a:hover{
-    color: #fff;
+    color: #ffffffa0;
     cursor: pointer;
-    transition: 0.3s;
+    color: #008f11;
+}
+
+/* Logo sign above name */
+.white {
+    transition: all 1s ease-out;
 }
 
 .white:hover{
     position: relative;
-    padding-left: 10px;
+    transform: scale(1.15);
+    color: #008f11;
 }
 
 /* media queres */
